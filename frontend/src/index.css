@@ -109,3 +109,18 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Resetăm marginile browserului care creează spațiul negru/alb de pe margini */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Previne scroll-ul */
+  background-color: #000; /* Fundal de rezervă */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
